@@ -1,0 +1,104 @@
+.Footopen{
+    background-color: #1a1d24;
+    width: 288px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+    position: fixed;
+}
+.Footopen h2{
+    color: white;
+    font-size: 17px;
+    font-style: initial;
+    padding-left: 8px;
+}
+
+.Chanels {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ArrowLeft {
+    padding-top: 8px;
+}
+
+.Kanali {
+    display: grid;
+    grid-gap: 15px;
+    padding-left: 10px;
+    justify-items: space-between;
+    height: max-content;
+}
+
+.Kanalys {
+    display: grid;
+    grid-template-columns: max-content 1fr 1fr;
+    color: white;
+    align-items: center;
+    align-content: center;
+    font-size: 15px;
+    justify-content: space-between;
+    grid-gap: 15px;
+    padding: 5px;
+}
+
+.Kanalys img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.Viewers {
+    color: red;
+    display: grid;
+    justify-items: end;
+}
+
+.Kanalys p {
+    margin: 0%;
+}
+
+.Kanalys h3 {
+    margin: 0%;
+}
+
+.Footclosed {
+    background-color: #1a1d24;
+    width: 58px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: max-content max-content max-content;
+    position: fixed;
+}
+
+.heart {
+    display: grid;
+    justify-items: center;
+    height: 50px;
+    width: 58px;
+    align-items: center;
+}
+
+.ArrowRight {
+    padding-left: 23px;
+}
+
+.NeKanalys {
+    display: grid;
+    grid-template-columns: max-content;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.NeKanalys img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

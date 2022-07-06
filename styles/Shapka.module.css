@@ -1,0 +1,74 @@
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+.logo{
+    padding-left: 20px;
+}
+ .papa {
+    background-color: #1a1d24;
+    display: grid;
+    grid-template-columns:max-content max-content max-content;
+    justify-content: space-between;
+    grid-gap: 20px;
+    height: 55px;
+    align-items: center;
+    border-bottom: 2px black solid;
+    position: fixed;
+    width: 100%;
+}
+ 
+ .words a {
+    color: azure;
+    padding-right: 15px;
+    font-size: 20px;
+ }
+ .wards a {
+    color: azure;
+    padding-right: 15px;
+    font-size: 20px;
+ }
+ .words:hover a {
+    color: blueviolet;
+ }
+ .wards:hover a {
+    color: blueviolet;
+ }
+ .icon {
+    display: grid;
+    align-items: center;
+    color: white;
+ }
+ .Left {
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    align-items: center;
+    grid-gap: 10px;
+ }
+  .centr {
+    display: grid;
+    color: white;
+    align-items: center;
+
+  }
+  .centr input {
+    color: white;
+  }
+  .right {
+    display: grid;
+    color: white;
+    grid-template-columns: max-content max-content max-content max-content max-content;
+    grid-gap: 20px;
+    align-items: center;
+  }
+  .Bits {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    grid-gap: 5px;
+  }
+  .Photo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }

@@ -1,0 +1,14 @@
+.Layout {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content max-content;
+}
+
+.Foot {
+    margin-top: 55px;
+}
+
+.content {
+    margin-top: 55px;
+    margin-left: 80px;
+}
